@@ -19,24 +19,27 @@ print(" ")
 upperLimit = int(input("[NumberGuessing] Please set the upper limit that is greater than 1: "))
 print(" ")
 print(" ")
+
 #indikating variables
 tries = 0
 on = True
+debugMode = True
 #calc random number
 random = random.randint(1,upperLimit)
 
 #game loop: get if number is bigger or smaller and tries +1
 print("[NumberGuessing] (Gamemaster): Ok i will lead the game now. I got a random number between 1 and {}. You have to guess. I will give you hints if the number is greater or lower.".format(upperLimit))
+if(debugMode):
+    print("Number =",random)
 print(" ")
 while(on):
     ui = int(input("[NumberGuessing] (Gamemaster): Now guess a number: "))
     if(random == ui):
         print("[NumberGuessing] (Gamemaster): You got it. The number was {}. You got it in {} Tries".format(random,tries))
-        file.
         break
     elif(random >= ui):
-        print("[NumberGuessing] (Gamemaster): The number I think of is greater than your input")
+        print("[NumberGuessing] (Gamemaster): This is your {}. try and I think the number is greater than your input".format(tries))
         tries = tries +1
     elif(random <= ui):
-        print("[NumberGuessing] (Gamemaster): The number I think of is smaller than your input")
+        print("[NumberGuessing] (Gamemaster): This is your {}. try and I think the number is smaller than your input".format(tries))
         tries = tries +1
