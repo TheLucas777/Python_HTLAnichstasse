@@ -25,6 +25,6 @@
 
 ## License
 
-Distributed under the MIT License. See [LICENSE] for more information.
+Distributed under the MIT License.
 
 [1]: https://discord.com/invite/Yqzt3vp98d
