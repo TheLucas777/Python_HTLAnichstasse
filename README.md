@@ -21,8 +21,10 @@
   </p>
 </p>
 
-![Discord](https://img.shields.io/discord/909890344521433148?color=pink&label=Discord&logo=Discord&logoColor=white) ![Commits](https://img.shields.io/github/last-commit/TheLucas777/Python_HTLAnichstasse) ![Reposize](https://img.shields.io/github/repo-size/TheLucas777/Python_HTLAnichstasse) ![License](https://img.shields.io/github/license/TheLucas777/Python_HTLAnichstasse) 
+[![Discord](https://img.shields.io/discord/909890344521433148?color=pink&label=Discord&logo=Discord&logoColor=white)][1] ![Commits](https://img.shields.io/github/last-commit/TheLucas777/Python_HTLAnichstasse) ![Reposize](https://img.shields.io/github/repo-size/TheLucas777/Python_HTLAnichstasse) ![License](https://img.shields.io/github/license/TheLucas777/Python_HTLAnichstasse) 
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/TheLucas777/Python_HTLAnichstrasse/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE] for more information.
+
+[1]: https://discord.com/invite/Yqzt3vp98d
