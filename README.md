@@ -21,7 +21,7 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/TheLucas777/Python_HTLAnichstrasse/total) ![Commits](https://img.shields.io/github/last-commit/TheLucas777/Python_HTLAnichstasse) ![Issues](https://img.shields.io/github/issues/TheLucas777/Python_HTLAnichstrasse) ![License](https://img.shields.io/github/license/TheLucas777/Python_HTLAnichstrasse) 
+![Downloads](https://img.shields.io/github/downloads/TheLucas777/Python_HTLAnichstrasse/total) ![Commits](https://img.shields.io/github/last-commit/TheLucas777/Python_HTLAnichstasse) ![Reposize](https://img.shields.io/github/repo-size/TheLucas777/Python_HTLAnichstasse) ![License](https://img.shields.io/github/license/TheLucas777/Python_HTLAnichstrasse) 
 
 ## About The Project
 
