@@ -9,15 +9,6 @@
   <p align="center">
     Everything of HTL Anichstrasse
     <br/>
-    <br/>
-    <a href="https://github.com/TheLucas777/Python_HTLAnichstrasse"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-    <a href="https://github.com/TheLucas777/Python_HTLAnichstrasse">View Demo</a>
-    .
-    <a href="https://github.com/TheLucas777/Python_HTLAnichstrasse/issues">Report Bug</a>
-    .
-    <a href="https://github.com/TheLucas777/Python_HTLAnichstrasse/issues">Request Feature</a>
   </p>
 </p>
 
