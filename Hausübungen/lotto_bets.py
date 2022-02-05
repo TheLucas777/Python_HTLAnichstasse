@@ -13,7 +13,7 @@ debugMode = True
 numbers = []
 guesses = []
 counter = 1
-
+number_count = 1
 
 # Check how many are right
 def check(list1, list2):
@@ -37,12 +37,16 @@ def calcBet(guessedNumbers, bet):
 bettedMoney = int(input("[Lotto] Bet some money --> "))
 
 # six random number to a list
-for x in range(0, 6, 1):
+while(number_count < 6):
     rand = random.randint(1, 45)
-    numbers.append(rand)
-
-    if (debugMode):
-        print("[DEBUG] Generated number {} it is {}.        List: {}".format(x, rand, numbers))
+    if numbers.__contains__(rand):
+        if(debugMode):
+            print("[DEBUG] Generated one number twice !!")
+    else:
+        numbers.append(rand)
+        number_count = number_count + 1;
+        if (debugMode):
+            print("[DEBUG] Generated number {} it is {}.        List: {}".format(number_count, rand, numbers))
 
 # user guesses six numbers
 for x in range(0, 6, 1):
