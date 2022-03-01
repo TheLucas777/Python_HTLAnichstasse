@@ -1,6 +1,6 @@
 '''
 Themen: Strucktogramme
-Strucktogramm:
+Strucktogramm: https://i.ibb.co/k9kxMDy/2Wuerfel.png
 Lucas
 28.02.2022
 '''
@@ -18,7 +18,6 @@ while (True):
         dice2 = random.randint(1, 6)
         augenpaare.append(str(dice1) + "+" + str(dice2))
         counter = counter +1
-        print(counter)
     else:
         break
 print("beide Würfel haben nach {} Versuche(n) eine 6 gewürfelt".format(counter))
