@@ -1,7 +1,7 @@
 '''
 sechstes Übungsfile - Themen: Funktionen
 Lucas
-24.01.2022
+07.03.2022
 '''
 
 #simple Funktion
