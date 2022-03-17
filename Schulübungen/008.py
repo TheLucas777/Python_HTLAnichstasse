@@ -1,5 +1,5 @@
 '''
-sechstes Übungsfile - Themen: Funktionen
+achte Übungsfile - Themen: Funktionen
 Lucas
 07.03.2022
 '''
