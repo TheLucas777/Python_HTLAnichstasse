@@ -14,6 +14,8 @@
 
 [![Discord](https://img.shields.io/discord/909890344521433148?color=pink&label=Discord&logo=Discord&logoColor=white)][1] ![Commits](https://img.shields.io/github/last-commit/TheLucas777/Python_HTLAnichstasse) ![Reposize](https://img.shields.io/github/repo-size/TheLucas777/Python_HTLAnichstasse) ![License](https://img.shields.io/github/license/TheLucas777/Python_HTLAnichstasse) 
 
+![Language](https://img.shields.io/badge/Language-Python-informational?style=for-the-badge&logo=python) 
+
 ## License
 
 Distributed under the MIT License.
