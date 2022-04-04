@@ -37,14 +37,15 @@ def show(list):
 
 def check(x,y,field, playersymbol):
     win = 1
-    down = y
     #nach unten gehen
-    for z in range(down,-1,-1):
+    for z in range(y,-1,-1):
         if(field[x][z] == playersymbol):
             if(z != -1):
                 win += 1
+                print("Win +1")
         else:
             break
+    return win
     
 
 show(field)
@@ -65,7 +66,7 @@ while (True):
             print("Die Reihe ist voll siehst du das nicht")
             break
 
-    print(y)
+    print(check(x,y,field,symbol))
     counter -= 1
     if (counter == 0):
         print("Unendschieden")
