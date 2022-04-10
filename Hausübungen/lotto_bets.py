@@ -8,7 +8,7 @@ Lucas
 '''
 import random
 
-debugMode = True
+debugMode = False
 # two variables numbers guesses
 numbers = []
 guesses = []
@@ -31,7 +31,7 @@ def check(list1, list2):
 def calcBet(guessedNumbers, bet):
     for x in range(0, 6, 1):
         if (x == guessedNumbers):
-            return ((16.6666666666667 * guessedNumbers) / 100) * bet
+            return ((23 * guessedNumbers) / 100) * bet
 
 
 bettedMoney = int(input("[Lotto] Bet some money --> "))
@@ -56,6 +56,7 @@ for x in range(0, 6, 1):
 # win or lose
 if (check(numbers, guesses) == 6):
     print("[Lotto] You guessed EVERY number!! Congrats!")
+    print("[Lotto] You got {:.2f}€.".format(calcBet(check(numbers, guesses), bettedMoney)))
 else:
     print("[Lotto] You guessed {} number(s) right.".format(check(numbers, guesses)))
     print("[Lotto] You got {:.2f}€.".format(calcBet(check(numbers, guesses), bettedMoney)))

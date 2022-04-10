@@ -7,7 +7,7 @@ Lucas
 '''
 import random
 
-debugMode = True
+debugMode = False
 # two variables numbers guesses
 numbers = []
 guesses = []
