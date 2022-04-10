@@ -4,13 +4,15 @@ Lucas
 04.04.2022
 '''
 
-# Config here what you want to see
-DEBUG = False  # True: print debug messages
-Title = True  # True: print title
-symbol_player1 = "●"  # Player 1 symbol
-symbol_player2 = "◌"  # Player 2 symbol
-board_directly_under = False  # True: print board directly under the game (no empty lines)
-empty_line_between_boards = 20  # how many empty lines between boards
+#
+# Config
+#
+DEBUG = False                   # True: print debug messages                                    [Default: False]
+Title = True                    # True: print title                                             [Default: True]
+symbol_player1 = "●"            # Player 1 symbol                                               [Default: "●"]
+symbol_player2 = "◌"            # Player 2 symbol                                               [Default: "◌"]
+board_directly_under = False    # True: print board directly under the game (no empty lines)    [Default: False]
+empty_line_between_boards = 20  # how many empty lines between boards                           [Default: 20]
 
 language = "de"  # "de" or "en" (DEBUG stays english)
 
