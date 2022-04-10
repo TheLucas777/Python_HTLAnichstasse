@@ -28,7 +28,6 @@ player_name = []  # player names
 # creaing the board
 field = [[" " for i in range(y_dim)] for j in range(x_dim)]
 
-
 #
 # prints the board, title and empty lines
 #
@@ -198,8 +197,12 @@ def check(x, y, field, playersymbol):
 
 
 # Entering the player names
-player_name.append(input("Player 1 enter your name: ").format(player_name[player - 1]))
-player_name.append(input("Player 2 enter your name: ").format(player_name[player - 1]))
+if language == "de":
+    player_name.append(input("Spieler 1 gib deinen Namen ein: "))
+    player_name.append(input("Spieler 2 gib deinen Namen ein: "))
+elif language == "en":
+    player_name.append(input("Player 1 enter your name: "))
+    player_name.append(input("Player 2 enter your name: "))
 
 show(field)
 
@@ -207,9 +210,9 @@ show(field)
 while (True):
     # Player chooses collumn
     if language == "de":
-        x = int(input("{} ist an der Reihe. Gib die Zeile ein, in die du einen Stein setzen willst: ")) - 1
+        x = int(input("{} ist an der Reihe. Gib die Zeile ein, in die du einen Stein setzen willst: ".format(player_name[player - 1]))) - 1
     elif language == "en":
-        x = int(input("It's {}'s turn. Enter the row you want to insert the chip: ")) - 1
+        x = int(input("It's {}'s turn. Enter the row you want to insert the chip: ".format(player_name[player - 1]))) - 1
 
     # checks if the player chose a valid collumn
     if x >= x_dim or x < 0:
