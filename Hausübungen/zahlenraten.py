@@ -21,9 +21,9 @@ print(" ")
 print(" ")
 
 #indikating variables
-tries = 0
+tries = 1
 on = True
-debugMode = True
+debugMode = False
 #calc random number
 random = random.randint(1,upperLimit)
 
