@@ -30,7 +30,6 @@ def colorchange(pencolor, fillcolor):
 def rectangle(a, b):
     for i in range(2):
         forward(a)
-        print(i,"a-corner:",xcor(),"|",ycor())
         left(90)
         forward(b)
         left(90)
@@ -38,28 +37,22 @@ def rectangle(a, b):
 # Draws the hangman
 def draw(losses):
     clearscreen()
-    #tracer(0)
+    tracer(0)
 
+    move(-460, 350)
+    write("Wrong guesses: {}".format(losses), font=("Arial", 30, "normal"))
 
-    if(losses == 0):
+    if(losses == 1):
 
-        move(-460, 350)
-        write("Wrong guesses: 0", font=("Arial", 30, "normal"))
-
-    elif(losses == 1):
-        move(-460, 350)
-        write("Wrong guesses: 1", font=("Arial", 30, "normal"))
         move(-10, -25)
         colorchange("black", "black")
         setheading(135)
         rectangle(10,50)
         colorchange("black", "black")
-
+        update()
 
     elif(losses == 2):
 
-        move(-460, 350)
-        write("Wrong guesses: 2", font=("Arial", 30, "normal"))
         move(-10, -25)
         colorchange("black", "black")
         setheading(135)
@@ -75,8 +68,6 @@ def draw(losses):
 
     elif(losses == 3):
 
-        move(-460, 350)
-        write("Wrong guesses: 3", font=("Arial", 30, "normal"))
         move(-10, -25)
         colorchange("black", "black")
         setheading(135)
@@ -98,8 +89,6 @@ def draw(losses):
 
     elif (losses == 4):
 
-        move(-460, 350)
-        write("Wrong guesses: 4", font=("Arial", 30, "normal"))
         move(-10, -25)
         colorchange("black", "black")
         setheading(135)
@@ -127,8 +116,38 @@ def draw(losses):
 
     elif (losses == 5):
 
-        move(-460, 350)
-        write("Wrong guesses: 5", font=("Arial", 30, "normal"))
+        move(-10, -25)
+        colorchange("black", "black")
+        setheading(135)
+        rectangle(10, 50)
+
+        colorchange("black", "black")
+        move(25, -60)
+        colorchange("black", "black")
+        setheading(45)
+        rectangle(10, 50)
+        colorchange("black", "black")
+
+        move(-15, -25)
+        colorchange("black", "black")
+        setheading(0)
+        rectangle(10, 100)
+        colorchange("black", "black")
+
+        move(-15, 75)
+        colorchange("black", "black")
+        setheading(270)
+        rectangle(10, 75)
+        colorchange("black", "black")
+
+        move(60, 75)
+        colorchange("black", "black")
+        setheading(180)
+        rectangle(10, 30)
+        colorchange("black", "black")
+        update()
+
+    elif (losses == 6):
         move(-10, -25)
         colorchange("black", "black")
         setheading(135)
@@ -159,5 +178,31 @@ def draw(losses):
         rectangle(10, 30)
         colorchange("black", "black")
 
-draw(5)
+        move(55, 50)
+        colorchange("black", "black")
+        setheading(180)
+        circle(17)
+
+        move(55,17)
+        setheading(270)
+        forward(37)
+
+        right(45)
+        forward(20)
+
+        move(55,-20)
+        right(45)
+        forward(20)
+
+        move(55,0)
+        left(45)
+        forward(20)
+        move(55,0)
+        right(225)
+        forward(20)
+
+
+        update()
+
+draw(6)
 done()
