@@ -30,6 +30,7 @@ def colorchange(pencolor, fillcolor):
 def rectangle(a, b):
     for i in range(2):
         forward(a)
+        print(i,"a-corner:",xcor(),"|",ycor())
         left(90)
         forward(b)
         left(90)
@@ -37,7 +38,7 @@ def rectangle(a, b):
 # Draws the hangman
 def draw(losses):
     clearscreen()
-    tracer(0)
+    #tracer(0)
 
 
     if(losses == 0):
@@ -152,6 +153,11 @@ def draw(losses):
         rectangle(10, 75)
         colorchange("black", "black")
 
+        move(60, 75)
+        colorchange("black", "black")
+        setheading(180)
+        rectangle(10, 30)
+        colorchange("black", "black")
 
-draw(4)
+draw(5)
 done()

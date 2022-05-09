@@ -40,6 +40,7 @@ def colorchange(pencolor, fillcolor):
 
 # Draws the House at given coords with given colors
 def house(startx, starty, pencolor, fillcolor, scale):
+    tracer(0)
     move(startx, starty)
     colorchange(pencolor, fillcolor)
 
@@ -69,7 +70,7 @@ def house(startx, starty, pencolor, fillcolor, scale):
     circle(2.5*scale)
 
     end_fill()
-
+    update()
 
 while True:
     pen = ["#" + ''.join([choice('ABCDEF0123456789') for i in range(6)])]
