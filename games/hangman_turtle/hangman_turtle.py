@@ -7,7 +7,6 @@ from turtle import *
 import random
 
 # Config
-Debug = True
 prefix = "[Hangman] "
 
 # Hangman word list
